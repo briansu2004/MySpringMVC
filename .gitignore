@@ -28,14 +28,27 @@ replay_pid*
 .project/
 .classpath/
 .settings/
-
 .vscode/
 .idea/
 
-## Maven
-*/.mvn/
+*/.project/
+*/.classpath/
+*/.settings/
+*/.vscode/
+*/.idea/
 
-## Gradle
+.mvn/
+mvnw
+mvnw.cmd
+
+*/.mvn/
+*/mvnw
+*/mvnw.cmd
+
+gradlew
+gradlew.bat
+settings.gradle
+
 */gradlew
 */gradlew.bat
 */settings.gradle
