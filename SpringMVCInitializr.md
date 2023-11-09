@@ -1,7 +1,5 @@
 # Spring MVC Initializr
 
-<!-- ![1699412197605](image/SpringMVCInitializr/1699412197605.png) -->
-
 To manually initialize the project:
 
 - Spring initializr: https://start.spring.io.
@@ -10,12 +8,47 @@ To manually initialize the project:
 
 - Click Dependencies and select Spring Web, Thymeleaf, and Spring Boot DevTools.
 
+![1699535051176](image/SpringMVCInitializr/1699535051176.png)
+
 - Click Generate.
 
 - Download the resulting zip file
 
-![1699502623110](image/SpringMVCInitializr/1699502623110.png)
+init.zip
 
 - Extract the zip file
 
-- Open the folder with VSCode
+C:\MySpringMVC\000-init
+
+- Open the `000-init` folder with VSCode
+
+- Add a `index.html` in `src/main/resources/static/` folder
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hell Spring MVC</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  </head>
+  <body>
+    <p>Hell Spring MVC</p>
+  </body>
+</html>
+```
+
+![1699535298811](image/SpringMVCInitializr/1699535298811.png)
+
+- Run the app
+
+```dos
+mvnw spring-boot:run
+```
+
+![1699535390856](image/SpringMVCInitializr/1699535390856.png)
+
+- Test the app
+
+`http://localhost:8080/`
+
+![1699535424477](image/SpringMVCInitializr/1699535424477.png)
