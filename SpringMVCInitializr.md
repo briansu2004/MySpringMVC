@@ -8,7 +8,13 @@ To manually initialize the project:
 
 - Click Dependencies and select Spring Web, Thymeleaf, and Spring Boot DevTools.
 
+JDK 17 + 3.1.5
+
 ![1699535051176](image/SpringMVCInitializr/1699535051176.png)
+
+JDK 8 + 2.7.17
+
+![1699573726548](image/SpringMVCInitializr/1699573726548.png)
 
 - Click Generate.
 
