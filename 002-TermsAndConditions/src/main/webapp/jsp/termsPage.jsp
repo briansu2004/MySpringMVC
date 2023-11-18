@@ -16,9 +16,8 @@
     <div id="section1">
       <h2>1. Acceptance of Terms</h2>
       <p>
-        By accessing or using [Your Company Name]'s website, products, or
-        services, you agree to comply with and be bound by the following terms
-        and conditions.
+        By accessing or using this website, products, or services, you agree to
+        comply with and be bound by the following terms and conditions.
       </p>
     </div>
 
